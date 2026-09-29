@@ -1,6 +1,6 @@
 # Redefine Clonotypes
 
-This block allows you to change the definition of a clonotype in a VDJ dataset. You can select a new set of columns (like V gene, J gene, and CDR3 aa or nt sequence) to define a clonotype.
+This block allows you to change the definition of a clonotype in a VDJ dataset. You can select a new set of columns (like V gene, J gene, and CDR3 aa or nt sequence) to define a clonotype. It also allows the users to input and annotate full length sequences. 
 
 The block will then:
 
