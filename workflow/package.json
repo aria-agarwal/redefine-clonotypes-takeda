@@ -1,6 +1,6 @@
 {
   "name": "@platforma-takeda/takeda.redefine-clonotypes-takeda.workflow",
-  "version": "1.11.5",
+  "version": "1.0.0",
   "private": true,
   "description": "Block Workflow",
   "type": "module",
