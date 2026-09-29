@@ -43,7 +43,7 @@
     "meta": {
       "title": "Redefine-Clonotypes-Takeda",
       "logo": "file:../logos/block-logo.png",
-      "url": "https://github.com/platforma-open/milaboratories.redefine-clonotypes",
+      "url": "https://github.com/oneTakeda/11514-platforma-blocks-redefine-clonotypes-takeda",
       "support": "mailto:support@milaboratories.com",
       "description": "Redefines clonotype definition by re-grouping them based on a new set of features and recalculates abundances.",
       "longDescription": "file:../docs/description.md",
@@ -54,8 +54,8 @@
         "downstream"
       ],
       "organization": {
-        "name": "MiLaboratories Inc",
-        "url": "https://milaboratories.com/",
+        "name": "Takeda",
+        "url": "https://www.takeda.com/",
         "logo": "file:../logos/organization-logo.png"
       }
     }
