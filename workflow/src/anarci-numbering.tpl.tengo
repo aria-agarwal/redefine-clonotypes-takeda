@@ -3,8 +3,8 @@ exec := import("@platforma-sdk/workflow-tengo:exec")
 assets := import("@platforma-sdk/workflow-tengo:assets")
 
 anarciSw := assets.importSoftware("@platforma-open/milaboratories.software-anarci:main")
-fastaSw := assets.importSoftware("@platforma-open/milaboratories.redefine-clonotypes.assembling-fasta:main")
-numberingSw := assets.importSoftware("@platforma-open/milaboratories.redefine-clonotypes.anarci-numbering:main")
+fastaSw := assets.importSoftware("@platforma-takeda/takeda.redefine-clonotypes-takeda.assembling-fasta:main")
+numberingSw := assets.importSoftware("@platforma-takeda/takeda.redefine-clonotypes-takeda.anarci-numbering:main")
 
 self.defineOutputs("numbered", "numberingStats", "anarciLog")
 

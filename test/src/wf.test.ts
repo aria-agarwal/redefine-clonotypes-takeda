@@ -2,7 +2,7 @@
 import { blockSpec as clonotypingBlockSpec } from "@platforma-open/milaboratories.mixcr-clonotyping-2";
 import type { BlockArgs as MiXCRClonotypingBlockArgs } from "@platforma-open/milaboratories.mixcr-clonotyping-2.model";
 import { uniquePlId } from "@platforma-open/milaboratories.mixcr-clonotyping-2.model";
-import type { BlockArgs } from "@platforma-open/milaboratories.redefine-clonotypes.model";
+import type { BlockArgs } from "@platforma-takeda/takeda.redefine-clonotypes-takeda.model";
 import { blockSpec as samplesAndDataBlockSpec } from "@platforma-open/milaboratories.samples-and-data";
 import type { BlockArgs as SamplesAndDataBlockArgs } from "@platforma-open/milaboratories.samples-and-data.model";
 import { wrapOutputs } from "@platforma-sdk/model";

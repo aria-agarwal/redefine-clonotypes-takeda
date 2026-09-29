@@ -1,5 +1,5 @@
 {
-  "name": "@platforma-open/milaboratories.redefine-clonotypes.ui",
+  "name": "@platforma-takeda/takeda.redefine-clonotypes-takeda.ui",
   "version": "1.8.4",
   "private": true,
   "type": "module",
@@ -12,9 +12,9 @@
     "check": "ts-builder check --target block-ui"
   },
   "dependencies": {
-    "@platforma-open/milaboratories.redefine-clonotypes.model": "workspace:*",
     "@platforma-sdk/model": "catalog:",
     "@platforma-sdk/ui-vue": "catalog:",
+    "@platforma-takeda/takeda.redefine-clonotypes-takeda.model": "workspace:*",
     "vue": "catalog:"
   },
   "devDependencies": {

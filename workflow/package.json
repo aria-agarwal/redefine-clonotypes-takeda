@@ -1,5 +1,5 @@
 {
-  "name": "@platforma-open/milaboratories.redefine-clonotypes.workflow",
+  "name": "@platforma-takeda/takeda.redefine-clonotypes-takeda.workflow",
   "version": "1.11.5",
   "private": true,
   "description": "Block Workflow",
@@ -12,8 +12,8 @@
     "check": "pl-tengo check"
   },
   "dependencies": {
-    "@platforma-open/milaboratories.redefine-clonotypes.anarci-numbering": "workspace:*",
-    "@platforma-open/milaboratories.redefine-clonotypes.assembling-fasta": "workspace:*",
+    "@platforma-takeda/takeda.redefine-clonotypes-takeda.anarci-numbering": "workspace:*",
+    "@platforma-takeda/takeda.redefine-clonotypes-takeda.assembling-fasta": "workspace:*",
     "@platforma-open/milaboratories.software-anarci": "catalog:",
     "@platforma-sdk/workflow-tengo": "catalog:"
   },

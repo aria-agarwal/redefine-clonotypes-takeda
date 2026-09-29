@@ -1,5 +1,5 @@
 {
-  "name": "@platforma-open/milaboratories.redefine-clonotypes.test",
+  "name": "@platforma-takeda/takeda.redefine-clonotypes-takeda.test",
   "version": "1.4.3",
   "private": true,
   "description": "Block tests",
@@ -15,11 +15,11 @@
   "dependencies": {
     "@platforma-open/milaboratories.mixcr-clonotyping-2": "^2.12.27",
     "@platforma-open/milaboratories.mixcr-clonotyping-2.model": "^1.20.0",
-    "@platforma-open/milaboratories.redefine-clonotypes.model": "workspace:*",
     "@platforma-open/milaboratories.samples-and-data": "^1.12.3",
     "@platforma-open/milaboratories.samples-and-data.model": "^2.4.1",
     "@platforma-sdk/model": "catalog:",
-    "this-block": "workspace:@platforma-open/milaboratories.redefine-clonotypes@*"
+    "@platforma-takeda/takeda.redefine-clonotypes-takeda.model": "workspace:*",
+    "this-block": "workspace:@platforma-takeda/takeda.redefine-clonotypes-takeda@*"
   },
   "devDependencies": {
     "@milaboratories/ts-builder": "catalog:",

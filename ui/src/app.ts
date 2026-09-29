@@ -1,7 +1,7 @@
 import {
   getDefaultBlockLabel,
   platforma,
-} from "@platforma-open/milaboratories.redefine-clonotypes.model";
+} from "@platforma-takeda/takeda.redefine-clonotypes-takeda.model";
 import { defineApp } from "@platforma-sdk/ui-vue";
 import { watchEffect } from "vue";
 import MainPage from "./pages/MainPage.vue";

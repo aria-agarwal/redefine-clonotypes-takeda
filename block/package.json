@@ -1,5 +1,5 @@
 {
-  "name": "@platforma-open/milaboratories.redefine-clonotypes",
+  "name": "@platforma-takeda/takeda.redefine-clonotypes-takeda",
   "version": "1.6.5",
   "files": [
     "dist",
@@ -26,9 +26,9 @@
   "devDependencies": {
     "@milaboratories/ts-builder": "catalog:",
     "@milaboratories/ts-configs": "catalog:",
-    "@platforma-open/milaboratories.redefine-clonotypes.model": "workspace:*",
-    "@platforma-open/milaboratories.redefine-clonotypes.ui": "workspace:*",
-    "@platforma-open/milaboratories.redefine-clonotypes.workflow": "workspace:*",
+    "@platforma-takeda/takeda.redefine-clonotypes-takeda.model": "workspace:*",
+    "@platforma-takeda/takeda.redefine-clonotypes-takeda.ui": "workspace:*",
+    "@platforma-takeda/takeda.redefine-clonotypes-takeda.workflow": "workspace:*",
     "@platforma-sdk/block-tools": "catalog:",
     "@platforma-sdk/model": "catalog:",
     "shx": "catalog:",
@@ -37,9 +37,9 @@
   "packageManager": "pnpm@9.14.4",
   "block": {
     "components": {
-      "workflow": "@platforma-open/milaboratories.redefine-clonotypes.workflow/dist/tengo/tpl/main.plj.gz",
-      "model": "@platforma-open/milaboratories.redefine-clonotypes.model/dist/model.json",
-      "ui": "@platforma-open/milaboratories.redefine-clonotypes.ui/dist"
+      "workflow": "@platforma-takeda/takeda.redefine-clonotypes-takeda.workflow/dist/tengo/tpl/main.plj.gz",
+      "model": "@platforma-takeda/takeda.redefine-clonotypes-takeda.model/dist/model.json",
+      "ui": "@platforma-takeda/takeda.redefine-clonotypes-takeda.ui/dist"
     },
     "meta": {
       "title": "Redefine-Clonotypes-Takeda",

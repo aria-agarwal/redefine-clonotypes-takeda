@@ -99,21 +99,21 @@ importers:
       '@milaboratories/ts-configs':
         specifier: 'catalog:'
         version: 1.4.0
-      '@platforma-open/milaboratories.redefine-clonotypes.model':
-        specifier: workspace:*
-        version: link:../model
-      '@platforma-open/milaboratories.redefine-clonotypes.ui':
-        specifier: workspace:*
-        version: link:../ui
-      '@platforma-open/milaboratories.redefine-clonotypes.workflow':
-        specifier: workspace:*
-        version: link:../workflow
       '@platforma-sdk/block-tools':
         specifier: 'catalog:'
         version: 2.12.12(@types/node@24.5.2)
       '@platforma-sdk/model':
         specifier: 'catalog:'
         version: 1.81.0
+      '@platforma-takeda/takeda.redefine-clonotypes-takeda.model':
+        specifier: workspace:*
+        version: link:../model
+      '@platforma-takeda/takeda.redefine-clonotypes-takeda.ui':
+        specifier: workspace:*
+        version: link:../ui
+      '@platforma-takeda/takeda.redefine-clonotypes-takeda.workflow':
+        specifier: workspace:*
+        version: link:../workflow
       shx:
         specifier: 'catalog:'
         version: 0.4.0
@@ -175,9 +175,6 @@ importers:
       '@platforma-open/milaboratories.mixcr-clonotyping-2.model':
         specifier: ^1.20.0
         version: 1.24.1
-      '@platforma-open/milaboratories.redefine-clonotypes.model':
-        specifier: workspace:*
-        version: link:../model
       '@platforma-open/milaboratories.samples-and-data':
         specifier: ^1.12.3
         version: 1.14.0
@@ -187,8 +184,11 @@ importers:
       '@platforma-sdk/model':
         specifier: 'catalog:'
         version: 1.81.0
+      '@platforma-takeda/takeda.redefine-clonotypes-takeda.model':
+        specifier: workspace:*
+        version: link:../model
       this-block:
-        specifier: workspace:@platforma-open/milaboratories.redefine-clonotypes@*
+        specifier: workspace:@platforma-takeda/takeda.redefine-clonotypes-takeda@*
         version: link:../block
       typescript:
         specifier: '*'
@@ -212,15 +212,15 @@ importers:
 
   ui:
     dependencies:
-      '@platforma-open/milaboratories.redefine-clonotypes.model':
-        specifier: workspace:*
-        version: link:../model
       '@platforma-sdk/model':
         specifier: 'catalog:'
         version: 1.81.0
       '@platforma-sdk/ui-vue':
         specifier: 'catalog:'
         version: 1.81.0(@bytecodealliance/preview2-shim@0.17.8)(typescript@5.9.3)
+      '@platforma-takeda/takeda.redefine-clonotypes-takeda.model':
+        specifier: workspace:*
+        version: link:../model
       '@types/node':
         specifier: '*'
         version: 24.5.2
@@ -243,18 +243,18 @@ importers:
 
   workflow:
     dependencies:
-      '@platforma-open/milaboratories.redefine-clonotypes.anarci-numbering':
-        specifier: workspace:*
-        version: link:../software/anarci-numbering
-      '@platforma-open/milaboratories.redefine-clonotypes.assembling-fasta':
-        specifier: workspace:*
-        version: link:../software/assembling-fasta
       '@platforma-open/milaboratories.software-anarci':
         specifier: 'catalog:'
         version: 1.0.1
       '@platforma-sdk/workflow-tengo':
         specifier: 'catalog:'
         version: 6.8.2
+      '@platforma-takeda/takeda.redefine-clonotypes-takeda.anarci-numbering':
+        specifier: workspace:*
+        version: link:../software/anarci-numbering
+      '@platforma-takeda/takeda.redefine-clonotypes-takeda.assembling-fasta':
+        specifier: workspace:*
+        version: link:../software/assembling-fasta
     devDependencies:
       '@platforma-sdk/tengo-builder':
         specifier: 'catalog:'
